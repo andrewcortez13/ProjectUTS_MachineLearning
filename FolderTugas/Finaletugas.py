@@ -38,7 +38,8 @@ df=pd.read_csv('/content/gdrive/My Drive/csv_file/games.csv', encoding='utf-8')
 # Mengeprint beberapa column, disini ada 12 jenis sample table yang akan di print
 df.iloc[:,:12]
 
-# Mengecek data data dari column winner, resultnya ada apa aja, dan jumlahnya berapa, dari data, kita dapat melihat putih lebih sering menang daripada hitam, namun hasilnya lumayan seimbang
+# Mengecek data data dari column winner, resultnya ada apa aja, dan jumlahnya berapa, dari data, kita dapat melihat putih lebih sering menang daripada hitam, namun hasilnya
+# lumayan seimbang
 # Dengan total kemenangan 10001 dari white, 9107 dari  black, dan draw 950
 df['winner'].value_counts()
 
